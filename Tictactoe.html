@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./tictactoe.css" />
+    <title>TicTacToe</title>
+  </head>
+
+  <body>
+    <button class="btn-restart" onclick="resetGame()">Restart!</button>
+
+    <h1 class="title">Tic Tac Toe</h1>
+
+    <div class="main-content">
+      <table>
+        <tr>
+          <th id="box1" onclick="ticTacToeFunction('box1')"></th>
+          <th id="box2" onclick="ticTacToeFunction('box2')"></th>
+          <th id="box3" onclick="ticTacToeFunction('box3')"></th>
+        </tr>
+        <tr>
+          <th id="box4" onclick="ticTacToeFunction('box4')"></th>
+          <th id="box5" onclick="ticTacToeFunction('box5')"></th>
+          <th id="box6" onclick="ticTacToeFunction('box6')"></th>
+        </tr>
+        <tr>
+          <th id="box7" onclick="ticTacToeFunction('box7')"></th>
+          <th id="box8" onclick="ticTacToeFunction('box8')"></th>
+          <th id="box9" onclick="ticTacToeFunction('box9')"></th>
+        </tr>
+      </table>
+    </div>
+    <div class="winner-message">
+      <div class="winner-message-text">The winner is</div>
+    </div>
+    <script src="./Tictactoe.js"></script>
+  </body>
+</html>

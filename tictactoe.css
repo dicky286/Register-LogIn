@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  border: solid black;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+th:hover {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.btn-restart {
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 25px;
+  cursor: pointer;
+  color: black;
+  font-family: inherit;
+}
+
+.winner-message-text {
+  font-size: 30px;
+  padding-top: 40px;
+  padding-left: 43vw;
+}
