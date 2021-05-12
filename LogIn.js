@@ -5,6 +5,7 @@ let logInButton = () => {
     document.getElementById("emailInput").value === mySavedEmail &&
     document.getElementById("passwordInput").value === mySavedPassword
   ) {
+    document.getElementById("submitButton").setAttribute("type", "submit");
     document.getElementById("form").action = "./Tictactoe.html";
   } else {
     document.getElementById("submitButton").setAttribute("type", "reset");
